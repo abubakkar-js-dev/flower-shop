@@ -35,7 +35,7 @@ body {
   margin-bottom: 20px;
   font-size: 45px;
 }
-.banner-text-container button {
+.btn-primary {
   width: 130px;
   height: 40px;
   color: white;
@@ -154,6 +154,57 @@ body {
   font-weight: 600;
 }
 
+/* hot deals section start */
+#hot-deals{
+  max-width: 1920px;
+  /* height: 550px; */
+  margin: 0 auto;
+  background-color: rgba(229, 84, 115, 0.1);
+  margin-bottom: 60px;   
+}
+.hot-deals-container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hot-deals-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.hot-deals-content h2{
+  font-size: 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  line-height: 28px;
+  margin-bottom: 22px;
+}
+.hot-deals-content p{
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.hot-deals-content button{
+  width: 115px;
+  height: 38px;
+  border-radius: 5px;
+}
+.hot-deals-content span{
+  color: red;
+}
+.hot-deals-img img{
+  max-width: 318px;
+  width: 220px;
+  height: 280px;
+}
+
 
 
 /* instagram section start  */
@@ -252,4 +303,46 @@ body {
   color: #daf0f2;
   background-color: rgb(229, 84, 115);
 }
+
+/* footer section start */
+footer{
+  max-width: 1920px;
+  /* height: 550px; */
+  margin: 0 auto;
+  padding: 90px 0;
+  background: rgb(17, 16, 16);  
+}
+.footer-container{
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-title{
+  color: white;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 38px;
+
+}
+.footer-title span{
+  color: #E55473;
+}
+.footer-container .footer-description{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.footer-container .footer-copyright{
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+
+}
+
 
