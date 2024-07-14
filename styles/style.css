@@ -9,6 +9,9 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.hide{
+  display: none;
+}
 
 /* banner section start */
 .banner-section-container {
