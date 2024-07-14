@@ -87,7 +87,19 @@
   margin-bottom: 10px;
 }
 
-
+/* instagram image container */
+.instagram-section-container{
+  width: 100%;
+  height: auto;
+  padding: 40px;
+}
+.instagrom-text-content{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.instagram-image-container{
+  grid-template-columns: 1fr;
+}
 
 
 

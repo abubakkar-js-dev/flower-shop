@@ -253,6 +253,9 @@ align-items: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+
+/* super deal sectin */
+
 .super-deals-container {
   max-width: 1440px;
   width: 80%;
