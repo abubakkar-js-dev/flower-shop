@@ -67,6 +67,29 @@
     border-radius: 10px;
   }
 
+/* support section */
+#support{
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+}
+
+.support-wrap{
+  flex-direction: column;
+
+}
+/* hot deal section */
+.hot-deals-container{
+  flex-direction: column-reverse;
+  padding: 15px;
+}
+.hot-deals-img{
+  margin-bottom: 10px;
+}
+
+
+
+
 
 
 
