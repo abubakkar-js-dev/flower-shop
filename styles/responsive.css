@@ -101,8 +101,32 @@
   grid-template-columns: 1fr;
 }
 
+/* latest/spuer deal section start */
+.super-deals-container{
+  width: 100%;
+  padding: 20px;
+}
+.super-deals-container .deal-content{
+  width: 95%;
+}
+.deals-content input{
+  width: 100%;
+}
+#subscribe-btn{
+  margin-top: 20px;
+}
+
+
+/* footer section start */
+
+.footer-container{
+  width: 80%;
+}
 
 
 
 
 }
+/* ===========================
+      End for mobile screen
+   =========================== */
